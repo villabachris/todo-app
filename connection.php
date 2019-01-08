@@ -1,15 +1,16 @@
 <?php 
-$host= "localhost";
-$username= "root";
-$password= "";
+/*$host= "localhost";*/
+$host= "db4free.net";
+$username= "chris_db";
+$password= "kyawti123";
 $dbname= "todo_app_db";
 $conn= mysqli_connect($host, $username, $password, $dbname);
 
-$status ="";
-function conn_test($status){
+
+
 if (!$conn){
 	die('Connection failed: '.mysqli_error($conn));
 }
-	return $status="Connected Successfully"."<br>";	
-}
+	echo $status="Connected Successfully"."<br>";	
+
  ?>

@@ -57,7 +57,8 @@
 	
 	<hr class="col-md-8 mx-auto">
 
-	<?php echo conn_test();?>
+	
+	
 	<div class="row">
 		<div class="col-md-8 mx-auto">
 			<ul id="task_list">
